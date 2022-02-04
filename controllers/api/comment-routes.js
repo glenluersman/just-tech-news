@@ -38,7 +38,7 @@ router.delete('/:id', withAuth, (req, res) => {
             return;
         }
         res.json(dbCommentData);
-    })
+    });
 });
 
 module.exports = router;
